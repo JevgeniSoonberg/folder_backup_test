@@ -2,17 +2,17 @@
 This program provides a graphical interface for synchronizing the contents of two folders (source and replica). It copies new or modified files from the source folder to the replica folder and deletes files that are no longer present in the source folder. The program also supports periodic synchronization with a specified interval. The code is designed to work on the Windows platform and supports logging of all operations to a file.
 
 # Imports
-`
-import os \n
-import shutil \n
-import time \n
-import logging \n
-import hashlib \n
-import tkinter as tk \n
-from tkinter import filedialog, messagebox \n
-import subprocess \n
-import sys \n
-`
+```python
+import os
+import shutil
+import time
+import logging
+import hashlib
+import tkinter as tk
+from tkinter import filedialog, messagebox
+import subprocess
+import sys
+```
 # Modules:
 
 - os — provides functions for working with the file system, such as creating directories, handling paths, and checking if they exist.
