@@ -3,15 +3,15 @@ This program provides a graphical interface for synchronizing the contents of tw
 
 # Imports
 `
-import os
-import shutil
-import time
-import logging
-import hashlib
-import tkinter as tk
-from tkinter import filedialog, messagebox
-import subprocess
-import sys
+import os \n
+import shutil \n
+import time \n
+import logging \n
+import hashlib \n
+import tkinter as tk \n
+from tkinter import filedialog, messagebox \n
+import subprocess \n
+import sys \n
 `
 # Modules:
 
